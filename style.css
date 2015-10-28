@@ -1,0 +1,16 @@
+/* style.css */
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+/* BASE */
+@import url('css/base/reset.css');
+@import url('css/base/base.css');
+
+/* LAYOUT */
+@import url('css/layout/header.css');
+@import url('css/layout/footer.css');
+
+/* MODULES */
+@import url('css/modules/hero.css');

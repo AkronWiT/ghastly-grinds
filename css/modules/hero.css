@@ -1,0 +1,6 @@
+/* hero.css */
+
+.hero {
+  height: 720px;
+  background: url('/img/background-hero.jpg') 50% 50% no-repeat;
+}
