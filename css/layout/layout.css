@@ -1,0 +1,6 @@
+/* Content */
+.content {
+  width: 93.75%; /* 960/1024 */
+  max-width: 1200px;
+  margin: 0 auto;
+}

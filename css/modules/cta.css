@@ -1,0 +1,11 @@
+.cta {
+  padding: 63px 0;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cta.cta-dark {
+  color: #fafaf6;
+  background-color: #00020F;
+}

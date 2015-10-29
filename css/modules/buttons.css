@@ -1,0 +1,14 @@
+/* buttons.css */
+
+.button {
+  padding: 1em 2em;
+  display: inline-block;
+  border-radius: .5em;
+  text-transform: uppercase;
+}
+
+.button.button-action {
+  color: #fff;
+  background-color: #d98236;
+  line-height: 1em;
+}

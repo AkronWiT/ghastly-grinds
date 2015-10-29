@@ -5,10 +5,11 @@ body {
   font-size: 1em;
   font-family: 'Open Sans', sans-serif;
   color: #111;
+  background-color: #fafaf6;
 }
 
 /* Links */
 a:link    { color: #BF372A; text-decoration: none; }
-a:visited { color: #BF372A; text-decoration: none; }
-a:hover   { color: #BF372A; text-decoration: none; }
+a:visited { color: #9f2e23; text-decoration: none; }
+a:hover   { color: #D98236; text-decoration: none; }
 a:active  { color: #BF372A; text-decoration: none; }

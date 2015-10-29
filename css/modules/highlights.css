@@ -1,0 +1,35 @@
+/* highlights.css */
+
+/* Highlights */
+.highlights {
+  padding: 6em 0;
+  overflow: hidden;
+  text-align: center;
+  color: #567175;
+}
+
+/* Highlights: Highlight */
+.highlights .highlight {
+  width: 33.333333333%;
+  display: block;
+  float: left;
+}
+
+/* Highlights: Highlight: Titles */
+.highlights .highlight .title {
+  margin-bottom: .5em;
+  color: #182D42;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+/* Highlights: Highlight: Description */
+.highlights .highlight .desc {
+  line-height: 1.5em;
+}
+
+/* Highlights: Highlight: Icon */
+.highlights .highlight .icon {
+  height: 96px;
+  margin-bottom: 2.5em;
+}

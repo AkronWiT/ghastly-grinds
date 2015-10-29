@@ -9,8 +9,12 @@
 @import url('css/base/base.css');
 
 /* LAYOUT */
-@import url('css/layout/header.css');
 @import url('css/layout/footer.css');
+@import url('css/layout/header.css');
+@import url('css/layout/layout.css');
 
 /* MODULES */
+@import url('css/modules/buttons.css');
+@import url('css/modules/cta.css');
 @import url('css/modules/hero.css');
+@import url('css/modules/highlights.css');

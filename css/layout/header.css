@@ -7,13 +7,7 @@
   overflow: hidden;
 }
 
-/* Header: Content */
-.header .content {
-  width: 93.75%; /* 960/1024 */
-  margin: 0 auto;
-}
-
-/* Header: Logo */
+/* Logo */
 .logo {
   width: 50%;
   margin-top: 38px;
@@ -27,7 +21,7 @@
   text-transform: uppercase;
 }
 
-/* Header: Navigation */
+/* Navigation */
 .nav {
   width: 50%;
   margin-top: 37px;
@@ -35,8 +29,14 @@
   text-align: right;
 }
 
-.nav-item {
+/* Navigation: Nav Item */
+.nav .nav-item {
   display: inline-block;
   padding: 10px 15px;
   margin: 0 15px;
+}
+
+/* Navigation: Nav Item */
+.nav .nav-item.active {
+  color: #567175;
 }

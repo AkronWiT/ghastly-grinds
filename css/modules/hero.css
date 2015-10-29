@@ -1,6 +1,41 @@
 /* hero.css */
 
+/* Hero */
 .hero {
+  /* Structure */
   height: 720px;
+  width: 100%;
+  /* Style */
+  color: #fafaf6;
   background: url('/img/background-hero.jpg') 50% 50% no-repeat;
+  text-align: center;
+  overflow: hidden;
+  /* Style: Box Shadow */
+  -webkit-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+  -moz-box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+  box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+  /* Style: Clip Path */
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+
+/* Hero: Bigger Text */
+.hero .bigger {
+  display: block;
+  margin-top: 2.5em;
+  font-size: 5em;
+  line-height: 1.5em;
+  text-shadow: 2px 2px 2px #999;
+}
+
+/* Hero: Big Text */
+.hero .big {
+  display: block;
+  font-size: 3.25em;
+  text-shadow: 2px 2px 2px #999;
+}
+
+/* Hero: Button */
+.hero .button {
+  margin-top: 4em;
 }
