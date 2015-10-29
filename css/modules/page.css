@@ -1,0 +1,14 @@
+/* page.css */
+
+/* Default Page */
+.page-default {
+  width: 93.75%; /* 960/1024 */
+  max-width: 1200px;
+  margin: 0 auto 6em;
+}
+
+/* Default Page: Content */
+.page-default .content {
+  width: 66.66666667%; /* 640/960 */
+  padding-right: 33.33333333%; /* 320/960 */
+}

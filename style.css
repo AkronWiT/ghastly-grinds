@@ -12,11 +12,12 @@
 @import url('css/layout/footer.css');
 @import url('css/layout/header.css');
 @import url('css/layout/layout.css');
+@import url('css/layout/sidebar.css');
 
 /* MODULES */
 @import url('css/modules/buttons.css');
 @import url('css/modules/cta.css');
 @import url('css/modules/hero.css');
 @import url('css/modules/highlights.css');
+@import url('css/modules/page.css');
 @import url('css/modules/posts.css');
-@import url('css/modules/sidebar.css');
