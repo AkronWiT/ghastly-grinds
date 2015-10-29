@@ -14,3 +14,16 @@ a:link    { color: #BF372A; text-decoration: none; }
 a:visited { color: #9f2e23; text-decoration: none; }
 a:hover   { color: #D98236; text-decoration: none; }
 a:active  { color: #BF372A; text-decoration: none; }
+
+/* Headings */
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+
+/* Paragraphs */
+p {
+  margin: 1em 0;
+}

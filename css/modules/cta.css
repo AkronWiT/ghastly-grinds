@@ -3,6 +3,7 @@
   font-size: 2em;
   text-align: center;
   text-transform: uppercase;
+  clear: both;
 }
 
 .cta.cta-dark {

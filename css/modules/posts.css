@@ -36,3 +36,8 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
+/* Posts: Paragraph */
+.post p {
+  margin-top: 0.5em;
+}
