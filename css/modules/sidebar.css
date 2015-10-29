@@ -1,0 +1,20 @@
+/* sidebar.css */
+
+/* Sidebar */
+.sidebar {
+  width: 31.25%; /* 300/960 */
+  display: block;
+  margin-top: 3em;
+  float: right;
+}
+
+/* Sidebar: Title */
+.sidebar .title {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Sidebar: List Items */
+.sidebar .list-items {
+  margin-bottom: 2em;
+}

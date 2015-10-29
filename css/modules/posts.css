@@ -1,0 +1,38 @@
+/* posts.css */
+
+/* Posts */
+.posts {
+  width: 66.66666667%; /* 640/960 */
+  display: block;
+  margin-top: 1em;
+  float: left;
+  line-height: 1.5em;
+}
+
+/* Post */
+.post {
+  padding: 2em 0 3em;
+  display: block;
+  border-bottom: 1px solid #e8e7dd;
+  overflow: hidden;
+}
+
+/* Posts: Thumbnail */
+.post .thumbnail {
+  width: 21.875%; /* 140/640 */
+  display: block;
+  float: left;
+}
+
+/* Posts: Post Details */
+.post .post-details {
+  width: 75%; /* 480/640 */
+  display: block;
+  float: right;
+}
+
+/* Posts: Title */
+.post .title {
+  font-weight: bold;
+  text-transform: uppercase;
+}

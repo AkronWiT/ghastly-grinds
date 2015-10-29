@@ -4,3 +4,8 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.page-title {
+  font-size: 2em;
+  text-transform: uppercase;
+}
