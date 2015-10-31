@@ -144,7 +144,7 @@ add_theme_support('menus');
 <?php endwhile; ?>
 ```
 - In `post.php` replace sidebar markup with `<?php get_sidebar(); ?>`
-- Update Hero background image path by editing `ghastly-grinds/css/modules/hero.css` on line 10 and fixing path
+- Fix Hero background image path by setting path to `../../ghastly-grinds/css/modules/hero.css` on line 10
 - Create CSS module `/css/modules/wordpress.css` and add WordPress core styling found here: (https://codex.wordpress.org/CSS)
 - Add new module to `style.css` on line 29 `@import url('css/modules/wordpress.css');`
 - In `page-home.php` fix image paths by appending WordPress theme tag to path `<?php bloginfo('template_url'); ?>/`
