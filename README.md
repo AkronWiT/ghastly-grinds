@@ -55,10 +55,10 @@
 ```
 <?php bloginfo( 'name' ); ?> <?php wp_title(); ?>
 ```
+- Insert `<?php wp_head(); ?>` into `header.php` within the `<head>` tag
 - Move footer code into `footer.php`
 - Replace all footer code with WP tag `<?php get_footer(); ?>`
 - Inside `footer.php` add `<?php wp_footer(); ?>` just before the closing body tag
-- Inert `<?php wp_head(); ?>` into `header.php` within the `<head>` tag
 - Rename `beans.html` to `page.php`
 - Delete `contact.html`
 - Replace content in `page.php` with WordPress page loop:  
@@ -87,7 +87,7 @@ add_theme_support( 'post-thumbnails' );
 // Add Menu Support
 add_theme_support('menus');
 ```
-- Edit `posts.php` and setup WordPress loop function for posts  
+- Edit `index.php` and setup WordPress loop function for posts  
 ```
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <!-- Post 1 Markup goes here! -->
@@ -95,10 +95,10 @@ add_theme_support('menus');
 <p>Sorry, no posts matched your criteria.</p>
 <?php endif; ?>
 ```
-- In `posts.php` replace content with `<?php the_excerpt(); ?>`
-- In `posts.php` set link to article in loop to `<?php the_permalink() ?>`
-- In `posts.php` replace post title with `<?php the_title(); ?>`
-- In `posts.php` replace post image with  
+- In `index.php` replace content with `<?php the_excerpt(); ?>`
+- In `index.php` set link to article in loop to `<?php the_permalink() ?>`
+- In `index.php` replace post title with `<?php the_title(); ?>`
+- In `index.php` replace post image with  
 ```
 <?php if ( has_post_thumbnail() ) { ?>
   <?php
@@ -108,14 +108,14 @@ add_theme_support('menus');
    <img src="<?php echo $thumb_url[0]; ?>" class="thumbnail">
  <?php } ?>
  ```
-- In `posts.php` delete other 4 post placeholders
+- In `index.php` delete other 4 post placeholders
 - Move sidebar markup into a new file named `sidebar.php`
 - Replace sidebar markup with WP tag `<?php get_sidebar(); ?>`
 - Replace category `<UL>` markup with
 ```
 <?php echo get_the_category_list(); ?>
 ```
-- Replace recent post `<UL>` markup with  
+- Replace recent post `<UL>` markup with
 ```
 <?php
   $recent_posts = wp_get_recent_posts();
@@ -148,3 +148,14 @@ add_theme_support('menus');
 - Create CSS module `/css/modules/wordpress.css` and add WordPress core styling found here: (https://codex.wordpress.org/CSS)
 - Add new module to `style.css` on line 29 `@import url('css/modules/wordpress.css');`
 - In `page-home.php` fix image paths by appending WordPress theme tag to path `<?php bloginfo('template_url'); ?>/`
+
+## TROUBLESHOOTING
+- If you receive the error `The package could not be installed. The style.css stylesheet doesn't contain a valid theme header.`, you need to add the CSS File Header to your `style.css` folder before zipping and upload.
+```
+/*!
+  Theme Name: Ghastly Grinds
+  Description: Custom theme for WordPress Workshop
+  Author: Akron Women in Tech
+  Version: 1.0
+*/
+```
