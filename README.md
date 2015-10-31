@@ -101,8 +101,12 @@ add_theme_support('menus');
 - In `posts.php` replace post image with  
 ```
 <?php if ( has_post_thumbnail() ) { ?>
-  <img src="<?php the_post_thumbnail(); ?>" class="thumbnail">
-<?php } ?
+  <?php
+  $thumb_id = get_post_thumbnail_id();
+  $thumb_url = wp_get_attachment_image_src($thumb_id,'thumbnail-size', true);
+  ?>
+   <img src="<?php echo $thumb_url[0]; ?>" class="thumbnail">
+ <?php } ?>
  ```
 - In `posts.php` delete other 4 post placeholders
 - Move sidebar markup into a new file named `sidebar.php`
@@ -124,8 +128,12 @@ add_theme_support('menus');
 - In `post.php` replace post image with  
 ```
 <?php if ( has_post_thumbnail() ) { ?>
-  <img src="<?php the_post_thumbnail(); ?>" class="thumbnail">
-<?php } ?
+  <?php
+  $thumb_id = get_post_thumbnail_id();
+  $thumb_url = wp_get_attachment_image_src($thumb_id,'thumbnail-size', true);
+  ?>
+   <img src="<?php echo $thumb_url[0]; ?>" class="thumbnail">
+ <?php } ?>
  ```
 - In `post.php` replace post title with `<?php the_title(); ?>`
 - In `post.php`
