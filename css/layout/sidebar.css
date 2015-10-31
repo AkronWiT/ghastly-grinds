@@ -15,6 +15,7 @@
 }
 
 /* Sidebar: List Items */
-.sidebar .list-items {
+.sidebar .list-items,
+.sidebar .post-categories {
   margin-bottom: 2em;
 }

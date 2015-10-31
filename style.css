@@ -3,7 +3,7 @@
   Description: Custom theme for WordPress Workshop
   Author: Akron Women in Tech
   Version: 1.0
-*/ 
+*/
 
 /* FONTS */
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
@@ -26,3 +26,4 @@
 @import url('css/modules/highlights.css');
 @import url('css/modules/page.css');
 @import url('css/modules/posts.css');
+@import url('css/modules/wordpress.css');

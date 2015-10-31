@@ -14,11 +14,6 @@
     <div class="header">
       <div class="content">
         <h1 class="logo">Ghastly Grinds</h1>
-        <ul class="nav">
-          <a href="home.html" class="nav-item active">Home</a>
-          <a href="beans.html" class="nav-item">Our Beans</a>
-          <a href="posts.html" class="nav-item">Boo-log</a>
-          <a href="contact.html" class="nav-item">Contact</a>
-        </ul>
+        <?php wp_nav_menu( array('menu' => 'main', 'container' => false) ) ?>
       </div>
     </div>

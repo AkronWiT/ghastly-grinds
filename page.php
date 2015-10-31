@@ -1,4 +1,4 @@
-<?php the_header(); ?>
+<?php get_header(); ?>
 
 <div class="page-default">
   <div class="content">
@@ -9,4 +9,4 @@
   </div>
 </div>
 
-<?php the_footer(); ?>
+<?php get_footer(); ?>

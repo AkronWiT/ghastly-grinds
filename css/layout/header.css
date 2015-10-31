@@ -22,22 +22,22 @@
   text-transform: uppercase;
 }
 
-/* Navigation */
-.nav {
+/* Menu */
+.menu {
   width: 50%;
   margin-top: 32px;
   float: right;
   text-align: right;
 }
 
-/* Navigation: Nav Item */
-.nav .nav-item {
+/* Menu: Menu Item */
+.menu .menu-item {
   display: inline-block;
   padding: 10px 15px;
   margin: 0 15px;
 }
 
-/* Navigation: Nav Item */
-.nav .nav-item.active {
+/* Navigation: Current Menu Item */
+.menu .menu-item.current-menu-item {
   color: #567175;
 }
