@@ -125,7 +125,7 @@ add_theme_support('menus');
 <?php	} ?>
 ```
 - Rename `post.html` to `single.php`
-- In `post.php` replace post image with  
+- In `single.php` replace post image with  
 ```
 <?php if ( has_post_thumbnail() ) { ?>
   <?php
@@ -135,9 +135,9 @@ add_theme_support('menus');
    <img src="<?php echo $thumb_url[0]; ?>" class="thumbnail">
  <?php } ?>
  ```
-- In `post.php` replace post title with `<?php the_title(); ?>`
-- In `post.php`
-- In `post.php` replace content with  
+- In `single.php` replace post title with `<?php the_title(); ?>`
+- In `single.php`
+- In `single.php` replace content with  
 ```
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
   <?php the_content(); ?>
