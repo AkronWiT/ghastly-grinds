@@ -49,7 +49,7 @@
 - Edit `header.php` and use WP tag `<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">` to replace style.css line
 - Edit `header.php` and replace menu markup with  
 ```
-<?php wp_nav_menu( array('menu' => 'main') ) ?>
+<?php wp_nav_menu( array('menu' => 'main', 'container' => false) ) ?>
 ```
 - Edit `header.php` and replace title content with  
 ```
